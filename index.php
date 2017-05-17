@@ -1,7 +1,9 @@
 <?php 
+include 'view/UtamaUUi.php';
 
- echo "Assalamualaikum akhi";
- echo "Selamat datang";
+$brd = new UtamaUUi();
 
- 
+$brd->tampilkanBerita();
+
+
  ?>

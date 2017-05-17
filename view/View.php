@@ -10,12 +10,13 @@
 
 		function __construct()
 		{
+			include_once 'template/navigasi.php';
 			include_once 'template/header.php';
-			include_once 'template/sidebar.php';
+			
 		}
 		protected function end(){
-			include 'template/header.php';
-			include 'template/footer.php';
+			include_once 'template/sidebar.php';
+			include_once 'template/footer.php';
 		}
 	}
  ?>

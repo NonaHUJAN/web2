@@ -15,7 +15,7 @@
     <link href="template/assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
-    <link href="remplate/assets/css/metisMenu.min.css" rel="stylesheet">
+    <link href="template/assets/css/metisMenu.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="template/assets/css/sb-admin-2.css" rel="stylesheet">
