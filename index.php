@@ -1,9 +1,9 @@
 <?php 
 include 'view/UtamaUUi.php';
 
-$brd = new UtamaUUi();
+$uui = new UtamaUUi();
 
-$brd->tampilkanBerita();
+$uui->tampilkanBerita();
 
 
  ?>
