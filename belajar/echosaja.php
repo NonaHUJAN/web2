@@ -3,7 +3,7 @@
 			array("buah"=>"pepaya","banyak"=>"1","tambahan"=>"kecap"),
 			array("buah"=>"mangga","banyak"=>"2","tambahan"=>"susu"),
 			array("buah"=>"pisang","banyak"=>"3","tambahan"=>"cappucino")
-		)
+		);
 
  ?>
 
