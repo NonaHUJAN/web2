@@ -1,33 +1,12 @@
-<?php 
-    $host = "localhost";
-    $dbname = "sisfonews";
-    $username = "root";
-    $password = " ";
-    $db = "";
-
-    try {
-        $db = new PDO("mysql:host={$host};dbname={$dbname}", $username, $password);
-        $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    }
-    catch (PDOException $exception){
-        die("Connection error: ".$exception->getMessage());
-    }
-
-    $query = $db->prepare("SELECT * FROM berita");
-    $query->execute();
-    $data = $query->fetchAll(); ?>
-
-        <div class="row">
-
-            <!-- Blog Entries Column -->
-            <div class="col-md-8">
-
-                <!-- First Blog Post -->
+<div class="row">
+<!-- Blog Entries Column -->
+    <div class="col-md-8">
+    <!-- First Blog Post -->
 
     <?php 
-    foreach ($data as $ib) { ?>
+    foreach ($isi_berita as $ib) { ?>
         <h2>
-            <a href="#"><?php echo $ib['judul'] ?></a>
+            <a href="ambildata.php"><?php echo $ib['judul'] ?></a>
         </h2>
         <p class="lead">
             by <a href="index.php">Start Bootstrap</a>
