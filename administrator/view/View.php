@@ -14,7 +14,6 @@
 			include_once 'template/sidebar.php';
 		}
 		protected function end(){
-			include 'template/header.php';
 			include 'template/footer.php';
 		}
 	}
