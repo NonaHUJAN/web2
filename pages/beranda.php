@@ -32,7 +32,7 @@
         <p class="lead">
             by <a href="index.php">Start Bootstrap</a>
         </p>
-        <p><i class="fa fa-clock-o"></i><?php echo $ib['tanggal'] ?></p>
+        <p><i class="fa fa-clock-o"></i>Posted on <?php echo $ib['tanggal'] ?></p>
         <p><?php echo $ib['isi'] ?></p>
     <?php }
  ?>
