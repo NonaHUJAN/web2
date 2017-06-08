@@ -3,15 +3,15 @@
 		<tr>
 			<th>No</th>
 			<th>Judul</th>
-			<th>Isi</th>
+			<th>Penulis</th>
 		</tr>
 	</thead>
 	<tbody>
  <?php foreach ($isi_berita as $ib) { ?>
 		<tr>
-			<td><?= $ib['id_berita'] ?></td>
+			<td><?= $ib['id_buku']?></td>
 			<td><?= $ib['judul'] ?></td>
-			<td><?= $ib['isi'] ?></td>
+			<td><?= $ib['penulis'] ?></td>
 		</tr>
 		<?php } ?>
 	</tbody>
